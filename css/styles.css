@@ -1,0 +1,19 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 55%);
+    --very-dark-gray: hsl(0, 0%, 41%);
+    --heading-font: 'Josefin Sans', sans-serif;
+    --body-font: 'Alata', sans-serif;
+
+}
+
+body {
+    font-size: 15px;
+    font-family: var(--body-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+}
